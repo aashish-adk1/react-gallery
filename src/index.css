@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.profile-pic img{
+    height: 350px;
+    width: 350px;
+}
+.heroSection{
+    background: url("./assets/Bg.jpg");
+    width: 100%;
+    height: 100vh;
+    background-position: bottom center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.wrapper{
+    max-width: 1200px; 
+    margin: 0 auto;
+    
+}
+.navbar,.menu ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu ul li{
+    list-style-type: none;
+}
+.menu ul li a{
+    text-decoration: none;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20rem;
+}
+.intro{
+    text-align: center;
+    max-width: fit-content;
+
+}
