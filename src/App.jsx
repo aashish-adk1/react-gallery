@@ -1,6 +1,9 @@
 import React from 'react'
-import Navbar from './components/Navbar/Navbar'
-import Hero from './components/Hero/Hero'
+import Navbar from './components/Navbar'
+import Hero from './components/Hero'
+import Photos from './components/Photos'
+import Videos from './components/Videos'
+import Contact from './components/Contact'
 import './index.css'
 import bgImg from './assets/Bg.jpg'
 function App() {
@@ -11,6 +14,15 @@ function App() {
       <Navbar/>
       <Hero/>
       </div>
+      </section>
+      <section className='photoSection'>
+      <Photos/>
+      </section>
+      <section className='videoSection'>
+      <Videos/>
+      </section>
+      <section className='contactSection'>
+      <Contact/>
       </section>
     </>
   )

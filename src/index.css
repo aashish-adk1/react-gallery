@@ -6,6 +6,8 @@
 .profile-pic img{
     height: 350px;
     width: 350px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 .heroSection{
     background: url("./assets/Bg.jpg");
@@ -16,10 +18,10 @@
     background-repeat: no-repeat;
     overflow: hidden;
 }
+
 .wrapper{
     max-width: 1200px; 
     margin: 0 auto;
-    
 }
 .navbar,.menu ul{
     display: flex;
@@ -44,5 +46,53 @@
 .intro{
     text-align: center;
     max-width: fit-content;
+
+}
+
+.photoSection{
+    background-color: blue;
+    height: 100vh;
+}
+.videoSection{
+    background-color: rgb(45, 246, 48);
+    height: 100vh;
+}
+.contactSection{
+    background-color: rgb(208, 49, 24);
+    height: 100vh;
+}
+
+
+.form{
+    max-width: 500px;
+    margin: 0 auto;
+    border: 2px solid black;
+    min-height: 50vh;
+}
+.fform{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+.names{
+    display:flex;
+    gap: 10%;
+}
+
+label{
+    /* display: block; */
+}
+#firstName,#secondName,#email,#message,#contact{
+    width:100%;
+}
+.images{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.images img{
+    width:30vw;
+    height:16vh;
 
 }

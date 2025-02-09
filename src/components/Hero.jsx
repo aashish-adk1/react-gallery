@@ -1,5 +1,5 @@
 import React from 'react'
-import profileImg from '../../assets/profile-pic.jpg'
+import profileImg from '../assets/profile-pic.jpg'
 function Hero() {
   return (
     <div className="container">
